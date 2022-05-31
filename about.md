@@ -6,7 +6,7 @@ excerpt: This blog's purpose is to document my internship with the Wikimedia Fou
 comments: false
 ---
 
-![A creature](/assets/img/littleguy.png){: style="float: left"}I'm Roberto. I'm working as an intern for the Wikimedia Foundation as part of Outreachy Round 24. I'm working on the project "What's in a Name? Automatically identifying first and last author names for Wikicite and Wikidata." This project dares to ask *what, exactly* makes a first name a *first name* and a last name a *last name.* The answer(s?) to this question, albeit complex, will be used to automatically detect and add author names to scientific articles on Wikidata, which leads to much easier searching and finding of the works of specific authors on other wiki sites!
+![A creature]({{ site.baseurl}}/assets/img/littleguy.png){: style="float: left"}I'm Roberto. I'm working as an intern for the Wikimedia Foundation as part of Outreachy Round 24. I'm working on the project "What's in a Name? Automatically identifying first and last author names for Wikicite and Wikidata." This project dares to ask *what, exactly* makes a first name a *first name* and a last name a *last name.* The answer(s?) to this question, albeit complex, will be used to automatically detect and add author names to scientific articles on Wikidata, which leads to much easier searching and finding of the works of specific authors on other wiki sites!
 
 I'll be working on this project alongside my co-intern [Feliciss](https://www.wikidata.org/wiki/User:Feliciss). My mentors are [Andy Mabbett](https://commons.wikimedia.org/wiki/User:Pigsonthewing) and [Mike Peel](https://meta.wikimedia.org/wiki/User:Mike_Peel).
 
