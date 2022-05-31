@@ -1,7 +1,6 @@
 ---
 title: About
 permalink: /about/
-baseurl: /outreachy24-blog
 layout: page
 excerpt: This blog's purpose is to document my internship with the Wikimedia Foundation as part of Outreachy Round 24.
 comments: false
