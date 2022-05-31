@@ -1,18 +1,17 @@
 ---
-title: Colophon
+title: About
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: This blog's purpose is to document my internship with the Wikimedia Foundation as part of Outreachy Round 24.
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+![A creature](/assets/img/littleguy.png){: style="float: left"}I'm Roberto. I'm working as an intern for the Wikimedia Foundation as part of Outreachy Round 24. I'm working on the project "What's in a Name? Automatically identifying first and last author names for Wikicite and Wikidata." This project dares to ask *what, exactly* makes a first name a *first name* and a last name a *last name.* The answer(s?) to this question, albeit complex, will be used to automatically detect and add author names to scientific articles on Wikidata, which leads to much easier searching and finding of the works of specific authors on other wiki sites!
 
-If you have a question about him or else, just send a letter to him.
+I'll be working on this project alongside my co-intern [Feliciss](https://www.wikidata.org/wiki/User:Feliciss). My mentors are [Andy Mabbett](https://commons.wikimedia.org/wiki/User:Pigsonthewing) and [Mike Peel](https://meta.wikimedia.org/wiki/User:Mike_Peel).
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+You can find me on wikidata [here](https://www.wikidata.org/wiki/User:PangolinMexico) and on github [here](https://github.com/colonelsheep/). 
 
-**may u needs ✨**
+While I currently live in the UK, soy mexicano 🇲🇽 y hablo español. Si eres latine y tienes preguntas sobre Outreachy, me encantaría ayudarte. Siéntete libre de mandarme un correo electronico: [garciamtz00@gmail.com](mailto:garciamtz00@gmail.com).
 
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+

@@ -181,18 +181,18 @@
 
 // Author
 .author {
-  margin-top: 6.3rem;
-  margin-bottom: 7.2rem;
+  margin-top: 3.3rem;
+  margin-bottom: 3.2rem;
   text-align: center;
-
   @include media-query($on-mobile) {
     margin-bottom: 3em;
   }
 
   .author-avatar {
-    width: 70px;
-    height: 70px;
-    border-radius: 100%;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     user-select: none;
     background-color: $black;
     -ms-user-select: none;
@@ -203,14 +203,16 @@
   }
 
   .author-name {
+    text-align: center;
     font-size: 1.7em;
     margin-bottom: 2px;
   }
 
   .author-bio {
+    text-align: center;
     margin: 0 auto;
     opacity: 0.9;
-    max-width: 393px;
+    max-width: 382px;
     line-height: 1.688;
   }
 }
