@@ -166,7 +166,7 @@
         {%- if menus %}
           {%- for menu in menus -%} 
             {%- if url == menu.url -%}
-              <a class="menu-link active" href="{{ menu.url }}">{{ menu.title }}</a>
+	    <a class="menu-link active" href="{{ site.baseurl }}{{ menu.url }}">{{ menu.title }}</a>
             {%- else -%} 
               {%- if menu.external -%}
                 <a
@@ -177,15 +177,15 @@
                   >{{ menu.title }}</a
                 >
               {%- else -%}
-                <a class="menu-link" href="{{ menu.url }}">{{ menu.title }}</a>
+	      <a class="menu-link" href="{{ site.baseurl }}{{ menu.url }}">{{ menu.title }}</a>
               {%- endif -%} 
             {%- endif -%} 
           {%- endfor -%}
         {%- else -%}
-          <a class="menu-link {% if url == '/' %}active{% endif %}" href="/">home</a>
-          <a class="menu-link {% if url == '/about/' %}active{% endif %}" href="/about">about</a>
+	<a class="menu-link {% if url == '/' %}active{% endif %}" href="/{{ site.baseurl }}">home</a>
+	  <a class="menu-link {% if url == '/about/' %}active{% endif %}" href= "{{ site.baseurl }}/about">about</a>
         {%- endif -%}
-        <a class="menu-link rss" href="/feed.xml">
+	<a class="menu-link rss" href="{{ site.baseurl }}/feed.xml">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="17"
