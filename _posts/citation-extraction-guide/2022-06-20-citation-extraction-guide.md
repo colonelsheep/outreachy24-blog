@@ -22,7 +22,7 @@ In Dimensions Publication, we can see an 'Export Citation' button on the right o
 <figcaption>Clicking on the bibTeX export citation button calls on the API!</figcaption>
 </figure>
 
-Let's take a look at the bibTeX API url: [https://app.dimensions.ai/details/sources/publication/export/pub.1023107623/citation/bibtex](https://app.dimensions.ai/details/sources/publication/export/pub.1023107623/citation/bibtex). Click on it to see it working in action!
+Let's take a look at the bibTeX API url: [https://app.dimensions.ai/details/sources/publication/export/pub.1023107623/citation/bibtex](https://app.dimensions.ai/details/sources/publication/export/pub.1023107623/citation/bibtex). Click on it to see the BibTeX file it generates!
 
 This appears to be a standardised API, with the numbers after *pub.* corresponding to the Dimensions Publication ID we can find on Wikidata. It follows that as long as we know the aforementioned API URL, we can get the BibTeX citation for *any* article on WikiData that has a Dimensions Publication ID.
 
@@ -30,7 +30,7 @@ Some scientific databases, such as ADS, may provide more robust APIs that allow 
 
 The next step after getting the BibTeX file is to parse the file in a way that accurately gives us the first and last names of an author. Let us manually evaluate the author section in the BibTeX file:
 
-```author = {Kolbe, Jason J. and Glor, Richard E. and Rodríguez Schettino, Lourdes and Lara, Ada Chamizo and Larson, Allan and Losos, Jonathan B.},```
+`author = {Kolbe, Jason J. and Glor, Richard E. and Rodríguez Schettino, Lourdes and Lara, Ada Chamizo and Larson, Allan and Losos, Jonathan B.},`
 
 Author names, in Dimensions Publication files, work as follows:
 1. The first author surname can be found by finding the first character that follows ```author = {```
