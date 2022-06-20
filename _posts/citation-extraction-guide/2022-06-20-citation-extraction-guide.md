@@ -30,7 +30,7 @@ Some scientific databases, such as ADS, may provide more robust APIs that allow 
 
 The next step after getting the BibTeX file is to parse the file in a way that accurately gives us the first and last names of an author. Let us manually evaluate the author section in the BibTeX file:
 
-> `author = {Kolbe, Jason J. and Glor, Richard E. and Rodríguez Schettino, Lourdes and Lara, Ada Chamizo and Larson, Allan and Losos, Jonathan B.},`
+`author = {Kolbe, Jason J. and Glor, Richard E. and Rodríguez Schettino, Lourdes and Lara, Ada Chamizo and Larson, Allan and Losos, Jonathan B.},`
 
 Author names, in Dimensions Publication files, work as follows:
 1. The first author surname can be found by finding the first character that follows ```author = {```
