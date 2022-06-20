@@ -86,6 +86,10 @@
       font-size: $small-font-size;
     }
   }
+  
+  code {
+	white-space : pre-wrap !important;
+}
 
   a {
     color: $text-link-blue;
